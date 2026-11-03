@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karl Garcia — Software Engineer</title>
+    <meta name="description" content="Karl Garcia is a full-stack software engineer who builds reliable, easy-to-use software for businesses." />
+    <link rel="icon" href="/karl.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,50;1,9..144,300..600,50&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="aurora" aria-hidden="true">
+      <span class="blob b1"></span>
+      <span class="blob b2"></span>
+      <span class="blob b3"></span>
+    </div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <main class="hero">
+      <figure class="photo-wrap">
+        <div class="photo" data-tilt>
+          <img src="/karl.jpg" alt="Karl smiling while holding his baby daughter" width="900" height="900" />
+          <span class="glare" aria-hidden="true"></span>
+        </div>
+        <figcaption class="sticker">Proud dad · Engineer</figcaption>
+      </figure>
+
+      <section class="copy">
+
+        <h1>
+          <span class="line">
+            <span class="w" style="--i: 0">Hi,</span>
+            <span class="w" style="--i: 1">I'm</span>
+            <span class="w" style="--i: 2">Karl.</span>
+            <span class="wave" aria-hidden="true">👋</span>
+          </span>
+          <span class="line muted">
+            <span class="w" style="--i: 3"><em>Let</em></span>
+            <span class="w" style="--i: 4"><em>me</em></span>
+            <span class="w" style="--i: 5"><em>help</em></span>
+            <span class="w" style="--i: 6"><em>with</em></span>
+            <span class="w" style="--i: 7"><em>your</em></span>
+            <span class="w accent" style="--i: 8"><em>software</em></span>
+            <span class="w accent" style="--i: 9"><em>needs.</em></span>
+          </span>
+        </h1>
+
+        <p class="intro reveal" style="--d: 1">
+          I'm a software engineer who helps business owners turn ideas and
+          everyday headaches into software that simply works: websites, apps,
+          and tools that save you time and help you grow.
+        </p>
+
+        <div class="cta-row reveal" style="--d: 2">
+          <a class="cta" data-magnetic href="mailto:garciakarl515@gmail.com?subject=Let's%20work%20together">
+            <span class="cta-label">Let's work together</span>
+            <span class="cta-arrow" aria-hidden="true">→</span>
+          </a>
+          <button class="copy-email" type="button" data-email="garciakarl515@gmail.com">
+            <span class="copy-text">garciakarl515@gmail.com</span>
+            <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5 15V5a2 2 0 0 1 2-2h10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+
+        <p class="clock reveal" style="--d: 3">
+          Based in Cagayan de Oro, Philippines · <span id="local-time">—</span> local time
+        </p>
+      </section>
+    </main>
+
+    <footer>© <span id="year"></span> Karl Gabriel Garcia</footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
