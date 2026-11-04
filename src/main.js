@@ -1,4 +1,7 @@
+import { inject } from '@vercel/analytics';
 import confetti from 'canvas-confetti';
+
+inject();
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
